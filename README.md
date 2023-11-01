@@ -18,7 +18,9 @@ Add usage instructions here...
 
 ## 4. File structure:
 
-Add file strucuture here...
+The game contains the following files:
+- milestone_2.py
+- milestone_3.py
 
 ## 5. License information:
 
