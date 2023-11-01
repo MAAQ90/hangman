@@ -6,8 +6,6 @@ print(word_list)
 word = random.choice(word_list)
 print(word)
 
-
-
 def ask_for_input():
     guess = input('Please enter a single letter: ')
     while (guess.isalpha() != True) or (len(guess) != 1):
