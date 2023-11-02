@@ -14,7 +14,7 @@ Add installation instructions here...
 
 ## 3. Usage instructions:
 
-- The program will randomly select a name of a fruit and you will be asked to guess its name.
+- The program will randomly assume a fruit and you will be asked to guess its name.
 - You will be allowed to enter one letter in each attempt, which will be checked if the name contains it.
 - You should only enter an alphabet, otherwise the program will prompt you to re-enter correctly.
 - You will have 5 lives (or attempts) to guess the all the letters of the name. If your guess is wrong, you will lose 'one' life in each attempt.
