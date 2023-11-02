@@ -8,7 +8,20 @@ print(word_list)
 
 class Hangman:
     
+    '''
+    This class contains the code to Hangman game.
+    
+    Attributes:
+        word_list: List of words from which the code randomly selects.
+        num_lives: Initial number of lives/attempts.       
+    '''
+    
     def __init__(self, word_list, num_lives = 5):
+        
+        '''
+        This function initialises the arguments in the class.
+        '''
+        
         self.word_list = word_list
         self.word = random.choice(self.word_list)
         self.word_guessed = ['_' for _ in self.word]
@@ -17,10 +30,14 @@ class Hangman:
         self.list_of_guesses = []
         
         print(self.word)
-        #print(set(self.word))
-        #print(len(set(self.word)))
+
         
     def check_guess(self, guess):
+        
+        '''
+        This function checks if the randomly selected word contains the guessed letter.
+        '''
+        
         if guess in self.word:
             print(f'Good guess! {guess} is in the word.')
             for index in range(len(self.word)):
@@ -34,6 +51,13 @@ class Hangman:
             print(f'You have {self.num_lives} lives left.')
                 
     def ask_for_input(self):
+        
+        '''
+        This function takes the user input and makes sure that it is a single
+        alphabet character.
+        '''
+        
+        
         #while True:
         guess = input('Please enter a single letter: ')
                 
@@ -48,6 +72,13 @@ class Hangman:
                 #print(self.list_of_guesses)
 
 def play_game(word_list):
+    
+    '''
+    This function creates an instance of the class Hangman.
+    It also keeps check on the number of lives and unique letters remaining.
+    By doing so it implements the conditions for winning or losing the game.
+    '''
+    
     num_lives = 5
     game = Hangman(word_list, num_lives)
     print (game.num_letters)
