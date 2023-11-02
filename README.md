@@ -25,6 +25,7 @@ Add installation instructions here...
 The game contains the following files:
 - milestone_2.py
 - milestone_3.py
+- milestone_4.py
 
 ## 5. License information:
 
