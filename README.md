@@ -1,6 +1,11 @@
 # Hangman
 
 ## Table of contents:
+1. About
+2. Installation instructions
+3. Usage instructions
+4. File structure
+5. License information
 
 ## 1. About
 
@@ -10,7 +15,8 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 
 ## 2. Installation instructions:
 
-Add installation instructions here...
+- Download the milestone_5.py file.
+- In your command line enter: python milestone_5.py OR python3 milestone_5.py (depending on the version)
 
 ## 3. Usage instructions:
 
@@ -26,7 +32,8 @@ The game contains the following files:
 - milestone_2.py
 - milestone_3.py
 - milestone_4.py
+- milestone_5.py
 
 ## 5. License information:
 
-Add license information here...
+Open-source license/code.
