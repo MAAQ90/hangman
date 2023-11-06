@@ -29,7 +29,7 @@ class Hangman:
         self.num_lives = num_lives
         self.list_of_guesses = []
         
-        print(self.word)
+        #print(self.word)
 
         
     def check_guess(self, guess):
