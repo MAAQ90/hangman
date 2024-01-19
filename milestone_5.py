@@ -95,19 +95,3 @@ def play_game(word_list):
         print('You lost!')
     
 play_game(word_list)
-            
-
-
-#print(my_instance.word)
-#my_instance.ask_for_input()
-
-#
-#print(my_instance.word_guessed)
-#print(my_instance.num_lives)
-
-
-
-
-
-        
-#ask_for_input()
